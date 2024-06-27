@@ -31,9 +31,6 @@ public class RandomNumber {
     }
 
     private static int randomNumber() {
-        System.out.println("Компьютер загадывает число...");
-        int random = new Random().nextInt(101);
-        System.out.println(random);
-        return random;
+        return new Random().nextInt(101);
     }
 }
