@@ -1,2 +1,4 @@
-package PACKAGE_NAME;public enum SellExceptionReason {
+public enum SellExceptionReason {
+    NO_MONEY,
+    NO_COUNT,
 }
